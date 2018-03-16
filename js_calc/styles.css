@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: red;
+}
+
+body {
+    background-color: green;
+}
+
+p {
+    color: orange;
+}
+
+/*BASIC*/
+.calculator{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.row{
+    display: flex;
+}
+span{
+    color: white;
+  
+}
+.button{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 40px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+.number{
+    background-color: gray;
+}
+.operator{
+    background-color: orange;
+}
+
+.button span{
+    text-align: center;
+    vertical-align: middle;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    background-color: #0a00ff;
+}
+
+
+.screen{
+    background-color: #8b2b00;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.screen-text{
+    font-size: 40px;
+}
+
+#num-0{
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+}
+#num-0 span{
+    margin-left: 30px;
+}
+
+.buttons .row:last-of-type{
+    display: flex;
+    justify-content: flex-end;
+}
